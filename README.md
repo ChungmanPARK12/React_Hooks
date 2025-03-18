@@ -19,8 +19,8 @@ React Hooks are built-in functions introduced in **React 16.8** that allow devel
 
 ## 📁 Project Structure
 ### 📂 **Src**
-- **`App.js`** - Main component integrating profile, jokes, tasks, gallery, and stories. Handles search and keypress events.  
-- Example of Code [Click here](https://github.com/ChungmanPARK12/Portfolio/tree/fdd9384db4d8cf3917e88f61ad2286fc0faf5ac2/react-hooks/home/Links/App)
+- **`App.js`** – The main component that integrates the profile, jokes, tasks, gallery, and stories. It also handles search functionality and keypress events.  
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/Portfolio/tree/fdd9384db4d8cf3917e88f61ad2286fc0faf5ac2/react-hooks/home/Links/App)
 
 - **`Gallery.js`** - Displays images from the dataset using the interval method.  
 - **`hooks.js`** - API integration using React Hooks.  
