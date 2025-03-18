@@ -24,17 +24,28 @@ React Hooks are built-in functions introduced in **React 16.8** that allow devel
   - **View Code:** [Click here](https://github.com/ChungmanPARK12/Portfolio/tree/fdd9384db4d8cf3917e88f61ad2286fc0faf5ac2/react-hooks/home/Links/App)
 
 - **`Gallery.js`** - Displays images from the dataset using the interval method.  
-- **`hooks.js`** - API integration using React Hooks.  
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/Portfolio/tree/fdd9384db4d8cf3917e88f61ad2286fc0faf5ac2/react-hooks/home/Links/App)
+
+- **`hooks.js`** - API integration using React Hooks.
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/Portfolio/tree/fdd9384db4d8cf3917e88f61ad2286fc0faf5ac2/react-hooks/home/Links/App)
+
 - **`Joke.js`** - Fetches and displays jokes using API methods from hooks.  
-- **`Stories.js`** - API request handler with URL integration.  
-- **`Tasks.js`** - Handles task input, list management, adding, deleting, and cursor events.  
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/Portfolio/tree/fdd9384db4d8cf3917e88f61ad2286fc0faf5ac2/react-hooks/home/Links/App)
+
+- **`Stories.js`** - API request handler with URL integration.
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/Portfolio/tree/fdd9384db4d8cf3917e88f61ad2286fc0faf5ac2/react-hooks/home/Links/App)  
+
+- **`Tasks.js`** - Handles task input, list management, adding, deleting, and cursor events.
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/Portfolio/tree/fdd9384db4d8cf3917e88f61ad2286fc0faf5ac2/react-hooks/home/Links/App)  
 - **`index.js`** - Root component, rendering application with ReactDOM.  
 
 ### 📂 **Data**
 - **`pictures.js`** - Handles image requests from assets.  
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/Portfolio/tree/fdd9384db4d8cf3917e88f61ad2286fc0faf5ac2/react-hooks/home/Links/App)
 
 ### 📂 **Styles**
 - **`index.css`** - Contains global styles for the project.  
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/Portfolio/tree/fdd9384db4d8cf3917e88f61ad2286fc0faf5ac2/react-hooks/home/Links/App)
 
 ---
 
@@ -57,5 +68,5 @@ React Hooks are built-in functions introduced in **React 16.8** that allow devel
 | `useCallback` | Optimizes performance by memoizing callback functions. |
 | `useMemo` | Prevents unnecessary re-computation for derived state values. |
 
----
+
 
