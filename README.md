@@ -20,32 +20,34 @@ React Hooks are built-in functions introduced in **React 16.8** that allow devel
 
 ## 📁 Project Structure
 ### 📂 **Src**
-- **`App.js`** – The main component that integrates the profile, jokes, tasks, gallery, and stories. It also handles search functionality and keypress events.  
-  - **View Code:** [Click here](https://github.com/ChungmanPARK12/Portfolio/tree/fdd9384db4d8cf3917e88f61ad2286fc0faf5ac2/react-hooks/home/Links/App)
+- **`App.js`** – The main component that integrating a search bar, joke display, task manager, stories, and a togglable gallery. It utilizes React Hooks for state management and user interactions dynamically. 
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/React_Hooks/tree/c260ec93b189614392ea7c1c953979c2283ba090/src/App)
 
-- **`Gallery.js`** - Displays images from the dataset using the interval method.  
-  - **View Code:** [Click here](https://github.com/ChungmanPARK12/Portfolio/tree/fdd9384db4d8cf3917e88f61ad2286fc0faf5ac2/react-hooks/home/Links/App)
+- **`Gallery.js`** - This component dynamically cycles through images from a dataset every 7 seconds using the useEffect hook. It efficiently updates the displayed image while ensuring proper cleanup with clearInterval() to prevent memory leaks. 
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/React_Hooks/tree/c260ec93b189614392ea7c1c953979c2283ba090/src/Gallery)
 
-- **`hooks.js`** - API integration using React Hooks.
-  - **View Code:** [Click here](https://github.com/ChungmanPARK12/Portfolio/tree/fdd9384db4d8cf3917e88f61ad2286fc0faf5ac2/react-hooks/home/Links/App)
+- **`hooks.js`** - This custom hook, useFetch, simplifies API integration by fetching data from a given URL using the useEffect hook. It initializes state with a default value and updates it upon receiving JSON data, ensuring efficient and reusable API calls.
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/React_Hooks/tree/c260ec93b189614392ea7c1c953979c2283ba090/src/hooks)
 
-- **`Joke.js`** - Fetches and displays jokes using API methods from hooks.  
-  - **View Code:** [Click here](https://github.com/ChungmanPARK12/Portfolio/tree/fdd9384db4d8cf3917e88f61ad2286fc0faf5ac2/react-hooks/home/Links/App)
+- **`Joke.js`** – Fetches and displays a random joke using API methods from the `useFetch` custom hook. It retrieves the joke's **setup and punchline** dynamically from an API, ensuring an interactive user experience.
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/React_Hooks/tree/c260ec93b189614392ea7c1c953979c2283ba090/src/Joke)
 
-- **`Stories.js`** - API request handler with URL integration.
-  - **View Code:** [Click here](https://github.com/ChungmanPARK12/Portfolio/tree/fdd9384db4d8cf3917e88f61ad2286fc0faf5ac2/react-hooks/home/Links/App)  
+- **`Stories.js`** – Handles API requests and integrates URLs to fetch and display top news stories dynamically. It utilizes the `useFetch` custom hook to retrieve story details, including the author, title, and publication date.
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/React_Hooks/tree/c260ec93b189614392ea7c1c953979c2283ba090/src/Stories)  
 
-- **`Tasks.js`** - Handles task input, list management, adding, deleting, and cursor events.
-  - **View Code:** [Click here](https://github.com/ChungmanPARK12/Portfolio/tree/fdd9384db4d8cf3917e88f61ad2286fc0faf5ac2/react-hooks/home/Links/App)  
-- **`index.js`** - Root component, rendering application with ReactDOM.  
+- **`Tasks.js`** – Manages task input, list updates, completion, and deletion using React Hooks. It stores tasks in **localStorage**, allowing users to persist their task lists while enabling interactive management through click events.
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/React_Hooks/tree/c260ec93b189614392ea7c1c953979c2283ba090/src/Tasks)
+
+- **`index.js`** – The root component responsible for rendering the application using `ReactDOM.createRoot()`. It imports global styles and initializes the `App` component, serving as the entry point for the React application.
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/React_Hooks/tree/c260ec93b189614392ea7c1c953979c2283ba090/src/index)
 
 ### 📂 **Data**
-- **`pictures.js`** - Handles image requests from assets.  
-  - **View Code:** [Click here](https://github.com/ChungmanPARK12/Portfolio/tree/fdd9384db4d8cf3917e88f61ad2286fc0faf5ac2/react-hooks/home/Links/App)
+- **`pictures.js`** – Manages and exports an array of image objects sourced from the assets folder. Each image is assigned a unique `id`, allowing for dynamic rendering in the gallery component.
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/React_Hooks/tree/c260ec93b189614392ea7c1c953979c2283ba090/src/pictures)
 
 ### 📂 **Styles**
-- **`index.css`** - Contains global styles for the project.  
-  - **View Code:** [Click here](https://github.com/ChungmanPARK12/Portfolio/tree/fdd9384db4d8cf3917e88f61ad2286fc0faf5ac2/react-hooks/home/Links/App)
+- **`index.css`** – Defines global styles for the project, including typography, layout, form styling, button design, gallery presentation, and task list interactions. It enhances the visual consistency and user experience across the application.
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/React_Hooks/tree/c260ec93b189614392ea7c1c953979c2283ba090/src/css)
 
 ---
 
