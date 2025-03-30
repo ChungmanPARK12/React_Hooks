@@ -42,11 +42,11 @@ React Hooks are built-in functions introduced in **React 16.8** that allow devel
 
 - **`Tasks.js`** – Manages **task input**, updates, and deletion with **React Hooks**. Uses **localStorage** to persist tasks and supports interactive edits.
 
-  - **View Code:** [Click here](https://github.com/ChungmanPARK12/React_Hooks/tree/c260ec93b189614392ea7c1c953979c2283ba090/src/Tasks)
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/React_Hooks/tree/b007904205b0e69c3ff5932739571d153df05e52/src/Tasks)
 
 - **`index.js`** – App **entry point**. Uses **`ReactDOM.createRoot()`**, loads global styles, and renders the main **`App`** component.
 
-  - **View Code:** [Click here](https://github.com/ChungmanPARK12/React_Hooks/tree/c260ec93b189614392ea7c1c953979c2283ba090/src/index)
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/React_Hooks/tree/b007904205b0e69c3ff5932739571d153df05e52/src/index)
 
 ### 📂 **Data**
 - **`pictures.js`** – Exports an array of **image objects** with unique **`id`s** for dynamic rendering in the **gallery**.
