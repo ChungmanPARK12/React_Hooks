@@ -46,7 +46,7 @@ React Hooks are built-in functions introduced in **React 16.8** that allow devel
 
 - **`index.js`** – App **entry point**. Uses **`ReactDOM.createRoot()`**, loads global styles, and renders the main **`App`** component.
 
-  - **View Code:** [Click here](https://github.com/ChungmanPARK12/React_Hooks/tree/b007904205b0e69c3ff5932739571d153df05e52/src/index)
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/React_Hooks/tree/d48b3aeffb16f05d91c6307c8f721a00a77f0c33/src/index)
 
 ### 📂 **Data**
 - **`pictures.js`** – Exports an array of **image objects** with unique **`id`s** for dynamic rendering in the **gallery**.
