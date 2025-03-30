@@ -20,33 +20,42 @@ React Hooks are built-in functions introduced in **React 16.8** that allow devel
 
 ## 📁 Project Structure
 ### 📂 **Src**
-- **`App.js`** – The main component that integrating a search bar, joke display, task manager, stories, and a togglable gallery. It utilizes React Hooks for state management and user interactions dynamically. 
+- **`App.js`** – Core component combining **search**, **jokes**, **tasks**, **stories**, and **gallery toggle**. Uses **React Hooks** for dynamic **state** and **interaction**.
+
   - **View Code:** [Click here](https://github.com/ChungmanPARK12/React_Hooks/tree/c260ec93b189614392ea7c1c953979c2283ba090/src/App)
 
-- **`Gallery.js`** - This component dynamically cycles through images from a dataset every 7 seconds using the useEffect hook. It efficiently updates the displayed image while ensuring proper cleanup with clearInterval() to prevent memory leaks. 
+- **`Gallery.js`** – Cycles through **images** every 7s using **`useEffect`**. Handles updates and cleanup with **`clearInterval()`** to avoid memory leaks.
+
   - **View Code:** [Click here](https://github.com/ChungmanPARK12/React_Hooks/tree/c260ec93b189614392ea7c1c953979c2283ba090/src/Gallery)
 
-- **`hooks.js`** - This custom hook, useFetch, simplifies API integration by fetching data from a given URL using the useEffect hook. It initializes state with a default value and updates it upon receiving JSON data, ensuring efficient and reusable API calls.
+- **`hooks.js`** – Custom **`useFetch`** hook for reusable **API calls**. Uses **`useEffect`** to fetch and update **JSON data** from a URL.
+
   - **View Code:** [Click here](https://github.com/ChungmanPARK12/React_Hooks/tree/c260ec93b189614392ea7c1c953979c2283ba090/src/hooks)
 
-- **`Joke.js`** – Fetches and displays a random joke using API methods from the `useFetch` custom hook. It retrieves the joke's **setup and punchline** dynamically from an API, ensuring an interactive user experience.
+- **`Joke.js`** – Displays a random **joke** using the custom **`useFetch`** hook. Dynamically shows **setup** and **punchline** from an API.
+
   - **View Code:** [Click here](https://github.com/ChungmanPARK12/React_Hooks/tree/c260ec93b189614392ea7c1c953979c2283ba090/src/Joke)
 
-- **`Stories.js`** – Handles API requests and integrates URLs to fetch and display top news stories dynamically. It utilizes the `useFetch` custom hook to retrieve story details, including the author, title, and publication date.
+- **`Stories.js`** – Fetches and displays top **news stories** using the custom **`useFetch`** hook. Shows **author**, **title**, and **date**.
+
   - **View Code:** [Click here](https://github.com/ChungmanPARK12/React_Hooks/tree/c260ec93b189614392ea7c1c953979c2283ba090/src/Stories)  
 
-- **`Tasks.js`** – Manages task input, list updates, completion, and deletion using React Hooks. It stores tasks in **localStorage**, allowing users to persist their task lists while enabling interactive management through click events.
+- **`Tasks.js`** – Manages **task input**, updates, and deletion with **React Hooks**. Uses **localStorage** to persist tasks and supports interactive edits.
+
   - **View Code:** [Click here](https://github.com/ChungmanPARK12/React_Hooks/tree/c260ec93b189614392ea7c1c953979c2283ba090/src/Tasks)
 
-- **`index.js`** – The root component responsible for rendering the application using `ReactDOM.createRoot()`. It imports global styles and initializes the `App` component, serving as the entry point for the React application.
+- **`index.js`** – App **entry point**. Uses **`ReactDOM.createRoot()`**, loads global styles, and renders the main **`App`** component.
+
   - **View Code:** [Click here](https://github.com/ChungmanPARK12/React_Hooks/tree/c260ec93b189614392ea7c1c953979c2283ba090/src/index)
 
 ### 📂 **Data**
-- **`pictures.js`** – Manages and exports an array of image objects sourced from the assets folder. Each image is assigned a unique `id`, allowing for dynamic rendering in the gallery component.
+- **`pictures.js`** – Exports an array of **image objects** with unique **`id`s** for dynamic rendering in the **gallery**.
+
   - **View Code:** [Click here](https://github.com/ChungmanPARK12/React_Hooks/tree/c260ec93b189614392ea7c1c953979c2283ba090/src/pictures)
 
 ### 📂 **Styles**
-- **`index.css`** – Defines global styles for the project, including typography, layout, form styling, button design, gallery presentation, and task list interactions. It enhances the visual consistency and user experience across the application.
+- **`index.css`** – Defines **global styles** for **typography**, **layout**, **forms**, **buttons**, **gallery**, and **task list**, ensuring consistent UI/UX.
+
   - **View Code:** [Click here](https://github.com/ChungmanPARK12/React_Hooks/tree/c260ec93b189614392ea7c1c953979c2283ba090/src/css)
 
 ---
@@ -69,6 +78,10 @@ React Hooks are built-in functions introduced in **React 16.8** that allow devel
 | `useRef` | Directly interacts with the DOM without re-rendering. |
 | `useCallback` | Optimizes performance by memoizing callback functions. |
 | `useMemo` | Prevents unnecessary re-computation for derived state values. |
+
+
+## Thank you
+Thank you for visiting my github :)
 
 
 

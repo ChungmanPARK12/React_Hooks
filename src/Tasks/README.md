@@ -24,18 +24,6 @@ function Tasks() {
     const [tasks, setTasks] = useState(storedTasks.tasks);
     const [completedTasks, setCompletedTasks] = useState(storedTasks.completedTasks);
 
-    // let tasks, setTasks, completedTasks, setCompletedTasks;
-
-    // if (i%2==0) {
-    //   ([tasks, setTasks] = useState([storedTasks.tasks]));
-    //   ([completedTasks, setCompletedTasks] = useState([storedTasks.completedTask]));
-    // } else {
-    //     ([completedTasks, setCompletedTasks] = useState([storedTasks.tasks]));
-    //     ([tasks, setTasks] = useState([storedTasks.completedTask]));
-    // }
-
-    // i++;
-
     useEffect(() => {
         storeTasks({tasks, completedTasks});
     })
